@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  linera:
+    build: .
+    container_name: linera-service
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./wallet.json:/root/.config/linera/wallet.json
+      - ./linera.toml:/root/.config/linera/linera.toml
+      - linera-storage:/root/.config/linera/storage
+    environment:
+      - RUST_LOG=info
+
+volumes:
+  linera-storage:

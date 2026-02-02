@@ -20,8 +20,6 @@ linera-contracts/**/Cargo.lock
 *.node
 
 # Linera / Wallets / Secrets
-.env
-.env.local
 .env.*.local
 *.pem
 *.key
@@ -30,7 +28,6 @@ wallet.json
 storage/
 
 # IDEs and Editors
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -53,3 +50,4 @@ docker-compose.override.yml
 tmp/
 temp/
 coverage/
+config.bat

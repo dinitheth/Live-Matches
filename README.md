@@ -380,3 +380,12 @@ For questions or support, please open an issue on GitHub.
 ---
 
 **Note**: This is a development version intended for local testing and buildathon demonstration. Not recommended for production use without additional security audits and infrastructure improvements.
+
+## Team
+
+**Team Lead:**  
+- Discord: crypto_xbr  
+
+**Team Members:**  
+- Discord: mrt07309  
+- Discord: aspa3399
